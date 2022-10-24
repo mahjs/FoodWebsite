@@ -46,4 +46,4 @@ app.get("/images/card-img-3.png", (req, res) => {
   res.sendFile(path.join(__dirname + "/images/card-img-3.png"));
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
