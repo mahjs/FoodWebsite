@@ -109,6 +109,7 @@
 }
 
 .menu::selection {
+  visibility: hidden;
   display: none;
 }
 
@@ -555,6 +556,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .gallery-link {
+    width: 80vw;
   }
 }
 /* End of Responsive */
